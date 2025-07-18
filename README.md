@@ -1,6 +1,6 @@
 # Simulador de Planos de Corte para Serraria
 
-![Plano de Corte](https://i.imgur.com/g9nNqim.png)
+![Imagem plano de corte](Project_01_Cutting_Plans_Simulator/Imagens/Imagem1.png)
 
 ## 📖 Descrição
 
