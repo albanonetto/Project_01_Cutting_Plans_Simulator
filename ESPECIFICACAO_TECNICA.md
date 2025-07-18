@@ -67,7 +67,7 @@ O núcleo da simulação consiste em múltiplos loops aninhados que testam difer
 
 O primeiro loop itera sobre as larguras possíveis para os taboados do bloco central. A partir dessa largura (`E`), calcula-se a altura máxima (`L`) do bloco que pode ser inscrito no círculo da tora usando o Teorema de Pitágoras.
 
-![Trigonometria Bloco Central](https://i.imgur.com/2Y4P1vR.png)
+![Trigonometria Bloco Central](Imagens/Imagem3.png)
 
 ```vba
 ' L é a altura máxima do bloco central
@@ -100,7 +100,7 @@ End If
 
 A costaneira é a peça retirada da "lateral" do bloco central. Sua espessura máxima (`EC`) é calculada com base na largura (`LC`) escolhida, novamente usando trigonometria.
 
-![Trigonometria Costaneira](https://i.imgur.com/r8k3pXG.png)
+![Trigonometria Costaneira](Imagens/Imagem5.png)
 
 ```vba
 ' Calcula a espessura máxima da costaneira
@@ -118,7 +118,7 @@ End Select
 
 De forma similar, a fresa é a peça retirada da parte superior/inferior do bloco central. Sua espessura (`EFR`) depende da largura (`LFR`) e da dimensão já ocupada pelo bloco (`LBES`).
 
-![Trigonometria Fresa](https://i.imgur.com/020fM8Q.png)
+![Trigonometria Fresa](Imagens/Imagem7.png)
 
 ```vba
 ' Calcula a espessura máxima da fresa
